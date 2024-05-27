@@ -5834,9 +5834,6 @@ section.faq-2-section .auto-container.p_relative {
 	}
 }
 @media only screen and (max-width: 767px){	
-	.right-column.d-flex.align-items-center {
-        display: none !important;
-    }
     .main-header.header-style-two .nav-outer {
 		margin-right: 0px !important;
 	}
