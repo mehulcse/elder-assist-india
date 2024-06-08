@@ -10,8 +10,8 @@ export default function Home() {
                 <section className="service-4-section">
                     <div className="auto-container">
                         <div className="section_heading text-center mb_60">
-                            <span className="section_heading_title_small">What We Offers</span>
-                            <h2 className="section_heading_title_big">Everyone Deserves Our <br /> Best Services</h2>
+                            <span className="section_heading_title_small">Discover our Expertise - Tailored Solutions for You</span>
+                            <h2 className="section_heading_title_big">Welcome to Our Service Galaxy</h2>
                         </div>
                         <div className="row">
                             <div className="col-lg-4 col-md-6">
