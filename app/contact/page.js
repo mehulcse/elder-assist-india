@@ -45,7 +45,7 @@ export default function Home() {
                         <div className="auto-container">  
                             <div className="section_heading text-center mb_40">
                                 <span className="section_heading_title_small">Let’s Contact</span>
-                                <h2 className="section_heading_title_big">Don't Hesitate to <br/> Contact Us</h2>
+                                <h2 className="section_heading_title_big">Have Something To Say?</h2>
                             </div>          
                             <div className="form-alt-3">
                                 <form method="post" action="sendemail.php" id="contact-form">
