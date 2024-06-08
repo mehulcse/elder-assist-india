@@ -14,59 +14,47 @@ export default function Home() {
                             <h2 className="section_heading_title_big">Everyone Deserves Our <br /> Best Services</h2>
                         </div>
                         <div className="row">
-                            <div className="col-lg-3 col-md-6">
+                            <div className="col-lg-4 col-md-6">
                                 <div className="service-4-block text-center wow fadeInLeft" >
                                     <div className="service-4-icon"><i className="icon-6"></i></div>
-                                    <h4 className="service-4-title mb_60"><Link href="/service-details">Assisted Living</Link></h4>
+                                    <h4 className="service-4-title mb_60"><Link href="/service-details">Medical & Health Solutions</Link></h4>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6">
+                            <div className="col-lg-4 col-md-6">
                                 <div className="service-4-block text-center wow fadeInLeft">
                                     <div className="service-4-icon"><i className="icon-7"></i></div>
-                                    <h4 className="service-4-title mb_60"><Link href="/service-details">Medical & Health</Link></h4>
+                                    <h4 className="service-4-title mb_60"><Link href="/service-details">Everyday Essentials Hub</Link></h4>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6">
+                            <div className="col-lg-4 col-md-6">
                                 <div className="service-4-block text-center wow fadeInLeft">
                                     <div className="service-4-icon"><i className="icon-8"></i></div>
-                                    <h4 className="service-4-title mb_60"><Link href="/service-details">Residential Care</Link></h4>
+                                    <h4 className="service-4-title mb_60"><Link href="/service-details">Financial Care</Link></h4>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6">
-                                <div className="service-4-block text-center wow fadeInLeft">
-                                    <div className="service-4-icon"><i className="icon-35"></i></div>
-                                    <h4 className="service-4-title mb_60"><Link href="/service-details">Nursing Care</Link></h4>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6">
+                            <div className="col-lg-4 col-md-6">
                                 <div className="service-4-block text-center wow fadeInLeft" >
                                     <div className="service-4-icon"><i className="icon-36"></i></div>
-                                    <h4 className="service-4-title"><Link href="/service-details">Physical Assistance</Link></h4>
+                                    <h4 className="service-4-title"><Link href="/service-details">Emergency Services</Link></h4>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6">
+                            <div className="col-lg-4 col-md-6">
                                 <div className="service-4-block text-center wow fadeInLeft">
                                     <div className="service-4-icon"><i className="icon-37"></i></div>
-                                    <h4 className="service-4-title"><Link href="/service-details">Personal Care</Link></h4>
+                                    <h4 className="service-4-title"><Link href="/service-details">Fun & Wellness</Link></h4>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6">
+                            <div className="col-lg-4 col-md-6">
                                 <div className="service-4-block text-center wow fadeInLeft">
                                     <div className="service-4-icon"><i className="icon-38"></i></div>
-                                    <h4 className="service-4-title"><Link href="/service-details">Spiritual Pain</Link></h4>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6">
-                                <div className="service-4-block text-center wow fadeInLeft">
-                                    <div className="service-4-icon"><i className="icon-39"></i></div>
-                                    <h4 className="service-4-title"><Link href="/service-details">Memory Care</Link></h4>
+                                    <h4 className="service-4-title"><Link href="/service-details">Other Care</Link></h4>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
                     
-                <section className="testimonial-2-section">
+                {/* <section className="testimonial-2-section">
                     <div className="testimonial-2-left-column" style={{backgroundImage: ' url(assets/images/resource/feature-image-1.jpg)'}}>
                         <div className="testimonial-2-feature-image">
                             <img className="d-block d-lg-none" src="assets/images/resource/feature-image-1.jpg" alt="" />
@@ -79,9 +67,9 @@ export default function Home() {
                         </div>
                         <TestimonialSlider2/>
                     </div>
-                </section>
+                </section> */}
 
-                <section className="blog-1-section">
+                {/* <section className="blog-1-section">
                     <div className="auto-container">
                         <div className="section_heading text-center mb_60">
                             <span className="section_heading_title_small">Articles</span>
@@ -138,7 +126,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
                 </div>
 
