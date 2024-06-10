@@ -15,7 +15,7 @@ export default function Home() {
                                 <div className="category-widget">
                                     <h4 className="category-widget-title">All Services</h4>
                                     <ul className="category-widget-list">
-                                        <li className="active"><Link href="/assisted-living">Assisted Living <i className="icon-40"></i></Link></li>
+                                        <li className="active"><Link href="/assisted-living">Assisted Livings <i className="icon-40"></i></Link></li>
                                         <li><Link href="/resident-care">Resident Care <i className="icon-40"></i></Link></li>
                                         <li><Link href="/medical-health">Medicale &amp; Health <i className="icon-40"></i></Link></li>
                                         <li><Link href="/nursing-care">Nursing Care <i className="icon-40"></i></Link></li>

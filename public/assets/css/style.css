@@ -4305,7 +4305,7 @@ p.image-box-1-desc {
 .category-widget {
     background: #FFFFFF;
     border: 1px solid #E5E5E5;
-    padding: 40px;
+    padding: 40px 30px;
     margin-bottom: 40px;
 }
 
@@ -5895,8 +5895,6 @@ section.faq-2-section .auto-container.p_relative {
 		width: 100%;
 	}
 }
-
-
 
 
 
