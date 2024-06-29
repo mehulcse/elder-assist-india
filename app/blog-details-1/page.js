@@ -5,7 +5,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Blog Details">
+            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Indian Elder Care: Common Issues and How to Manage Them">
                 <div>
                     <section className="blog-1-section">
                         <div className="auto-container">
@@ -14,48 +14,47 @@ export default function Home() {
                                     <div className="blog-1-block mb-0">
                                         <div className="blog-1-image">
                                             <img src="assets/images/resource/blog-11.jpg" alt=""/>
-                                            <div className="blog-1-date"><span>15 </span><br/> APRIL</div>
+                                            <div className="blog-1-date"><span>30 </span><br/> JUNE</div>
                                         </div>
                                         <div className="blog-1-bottom-content alt mb_80">
-                                            <h4 className="blog-1-title">Inspire Design Decisions Was With Giovanni Pintorie</h4>
+                                            <h4 className="blog-1-title">Indian Elder Care: Common Issues and How to Manage Them</h4>
                                             <ul className="d-flex blog-1-meta-info">
                                                 <li><i className="icon-12"></i>Admin</li>
-                                                <li><i className="icon-13"></i>0 Comnt</li>
-                                            </ul>
-                                            <p className="blog-1-excerpt">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi felis arcu maecenas pharetra, elementum orci orci. In tincidunt est viverra id. In habitant turpis pretium habitasse sapien, hendrerit. Consectetur auctor etiam purus senectus. <br/> <br/>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus ornare non non massa elit rutrum. Eros proin nibh neque interdum accumsan, neque vitae. Tortor etiam sed suspendisse faucibus ac volutpat mattis tortor nec. Orc velit a, posuere turpis amet. Lectus lacus lectus habitasse amet quam libero, lorem. Volutpat odio maecenas viverra consequat condimentum diam donec aliquet. Natoque quam id vitae leo risus. Eget neque proin in dolor cursus bibendum urna dictum. Aliquam gravida et proin maecenas quis faucibus varius tristique. <br/> <br/> Pulvinar dolor aliquet netus ultrices neque, mi non accumsan ullamcorper. Et nunc scelerisque turpis facilisis pretium ut facilisis pharetra, ultrices. Duis imperdiet habitant arcu quis. Nunc euismod odio cursus in diam eget tincidunt mauris.</p> 
-                                            <blockquote className="mt_40 mb_40">
-                                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit amet sit purus tempor dui pharetra consequat nibh elit urna interdum viera quam a arcu duis quis lectus donec nulla aliquam sit fermentum morbi sed nisl molestie.”
-                                                <cite>Darlene Robertson</cite>
-                                            </blockquote>  
-                                            <h4 className="fs_28 mb_20">Senior Living Community</h4>   
-                                            <p className="mb_20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus ornare non non massa elit rutrum. Eros proin nibh neque interdum accumsan, neque vitae. Tortor etiam sed suspendisse faucibus ac volutpat mattis tortor nec Orc velit a posuere turpis amet.</p>   
+                                            </ul> 
+                                            <h4 className="fs_28 mb_20">The Growing Need for Elder Care in India</h4>   
                                             <ul className="list-style-one mb_40">
-                                                <li>Platea sed fames at egestas amet feugiat laoreet</li>
-                                                <li>Duis et enim justo, in mauris posuere dolor magnis felis sapien sit egestas. Ut venenatis faucibus non sed faucibus mauris ultricies.</li>
-                                                <li>Mauris donec ociis et magnis sapien etiam sapien sagittis congue tempor gravida done</li>
-                                            </ul>  
-                                            <div className="row mb_20">
-                                                <div className="col-md-6">
-                                                    <div className="image mb_30"><img src="assets/images/resource/blog-18.jpg" alt=""/></div>
-                                                </div>
-                                                <div className="col-md-6">
-                                                    <div className="image mb_30"><img src="assets/images/resource/blog-19.jpg" alt=""/></div>
-                                                </div>
-                                            </div>
-                                            <h4 className="fs_28 mb_20">Trusted Senior Care</h4>
-                                            <p className="mb_40">Eget neque proin in dolor cursus bibendum urna dictum. Aliquam gravida et proin maecenas quis faucibus varius tristique pulvinar dolor aliquet netus ultrices neque, mi non accumsan ullamcorper. Et nunc scelerisque turpis facilisis pretium ut facilisis pharetra, ultrices. Duis imperdiet habitant arcu quis. Nunc euismod odio cursus in diam eget tincidunt mauris.</p>
-                                            <ul className="tag-cloud-widget-list alt d-flex flex-wrap">
-                                                <li><Link href="/blog-grid">Caring</Link></li>
-                                                <li><Link href="/blog-grid">Senior</Link></li>
-                                                <li><Link href="/blog-grid">Elder</Link></li>
-                                                <li><Link href="/blog-grid">Team</Link></li>
-                                            </ul>                 
+                                                <li>With people’s routines getting increasingly hectic with each passing day, the elders need more care and attention now than ever before. The National Policy for Older Persons was established in 1999 by the Ministry of Statistics and Programme Implementation and the National Statistics Office of the Government of India. The older adult population has increased from 24.7 million in the 1961 census to a projected 137.9 million and 158.7 million for the 2022 and 2025 censuses, respectively, accounting for 11.1% of the overall population.
+                                                </li>
+                                                <li>The senior citizens in the country, in their most lonely time, are left to fend for themselves in their later years. In 1961, the older adult population in India was 24.7 million. According to the Census undertaken in 2011, 8% of India’s total population (100 million) was aged above 60.</li>
+                                                <li>In India, 85% of the elderly are living with family, 8% are living with spouse only, 6% are living alone whereas 2% are living with their relatives, revealed the annual report prepared by HelpAge India in 2018.</li>
+                                            </ul>
+                                            <h4 className="fs_28 mb_20">Common Issues in Indian Elder Care</h4>
+                                            <ul className="list-style-one mb_40">
+                                                <li><b>Health Problems</b>: Chronic illnesses like diabetes, hypertension, arthritis, and heart diseases are prevalent among the elderly. Mental health issues, including depression and dementia, also pose significant challenges.</li>
+                                                <li><b>Financial Dependence</b>: Many elderly individuals in India are financially dependent on their children due to a lack of savings and inadequate pension schemes. This dependency can lead to stress and conflicts within families.</li>
+                                                <li><b>Loneliness and Isolation</b>: With the rise of nuclear families and the migration of younger generations to urban areas or abroad, many elderly people are left alone, leading to feelings of loneliness and social isolation.</li>
+                                                <li><b>Inadequate Healthcare Services</b>: Access to quality healthcare remains a significant concern, particularly in rural areas. Many elderly individuals struggle to receive timely and effective medical attention.</li>
+                                                <li><b>Crime Against Aged Persons</b>: This age group is vulnerable to crimes including murder, attempted murder, bodily harm, deceit, robbery, dacoity, and extortion.</li>
+                                            </ul>
+                                            <h4 className="fs_28 mb_20">Managing Elder Care Effectively</h4>
+                                            <ul className="list-style-one mb_40">
+                                                <li><b>Regular Health Check-ups</b>: Encourage routine medical examinations to monitor and manage chronic conditions. Preventive healthcare and timely medical intervention can significantly improve the quality of life for the elderly.</li>
+                                                <li><b>Financial Planning</b>: Promote financial literacy and planning among the elderly. Encourage them to invest in pension schemes, health insurance, and savings plans early on. For those already dependent, families should strive to create a supportive financial environment.
+                                                </li>
+                                                <li><b>Community Engagement</b>: Combat loneliness by encouraging participation in community groups and activities. Senior citizen clubs, religious gatherings, and local events can provide much-needed social interaction and a sense of belonging.
+                                                </li>
+                                                <li><b>Accessible Healthcare</b>: Advocate for better healthcare infrastructure, especially in rural areas. Telemedicine can play a crucial role in providing remote consultations and reducing the need for frequent travel.
+                                                </li>
+                                                <li><b>Awareness and Support for Elder Abuse</b>: Educate the elderly and their families about the signs of abuse and the resources available for help. Establish helplines and support groups to provide immediate assistance and counselling.
+                                                </li>
+                                            </ul>    
+                                        
+                                            <p className="mb_40">Elder care in India requires a compassionate and comprehensive approach. By addressing health, financial, social, and safety concerns, we can ensure our elders live with dignity and respect, honouring their invaluable contributions to society.</p>
+                                                         
                                         </div>
-                                        <div className="comments-area">
+                                        {/* <div className="comments-area">
                                             <h4 className="fs_28 mb_30">2 Comments</h4>
-                                            {/*Comment Box */}
+                                            
                                             <div className="comment-box">
                                                 <div className="comment">
                                                     <div className="author-thumb"><img src="assets/images/resource/testimonial-5.jpg" alt=""/></div>
@@ -66,7 +65,7 @@ export default function Home() {
                                                     </div>
                                                 </div>
                                             </div>        
-                                            {/* Comment Box*/}
+                                           
                                             <div className="comment-box">
                                                 <div className="comment">
                                                     <div className="author-thumb"><img src="assets/images/resource/testimonial-7.jpg" alt=""/></div>
@@ -77,8 +76,8 @@ export default function Home() {
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div className="comment-form form-alt-2">  
+                                        </div> */}
+                                        {/* <div className="comment-form form-alt-2">  
                                             <h4 className="fs_28 mb_30">Leave a Comments</h4>
                                             <form method="post">
                                                 <div className="row row-10">
@@ -96,10 +95,10 @@ export default function Home() {
                                                     </div>
                                                 </div>
                                             </form>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
-                                <div className="col-lg-4 ps-lg-60">
+                                {/* <div className="col-lg-4 ps-lg-60">
                                     <div className="tp-default-widget">
                                         <div className="search-widget">
                                             <form>
@@ -184,7 +183,7 @@ export default function Home() {
                                             </ul>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>            
                         </div>
                     </section>
