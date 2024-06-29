@@ -86,11 +86,11 @@ export default function Menu() {
         <li>
           <Link href="/contact">Contact Us</Link>
         </li>
-          <div>
+          {/* <div>
             <Link href="/login" className="btn-1">
               Login<span></span>
             </Link>
-          </div>
+          </div> */}
       </ul>
     </>
   );
