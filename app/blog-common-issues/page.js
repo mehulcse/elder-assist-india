@@ -5,7 +5,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="How to Ensure Quality Care for Elder People">
+            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Indian Elder Care: Common Issues and How to Manage Them">
                 <div>
                     <section className="blog-1-section">
                         <div className="auto-container">
@@ -13,55 +13,43 @@ export default function Home() {
                                 <div className="col-lg-8">
                                     <div className="blog-1-block mb-0">
                                         <div className="blog-1-image">
-                                            <img src="assets/images/resource/blog-11.jpg" alt=""/>
+                                            <img src="assets/images/resource/blog-1.svg" alt="blog1"/>
                                             <div className="blog-1-date"><span>30 </span><br/> JUNE</div>
                                         </div>
                                         <div className="blog-1-bottom-content alt mb_80">
-                                            <h4 className="blog-1-title">How to Ensure Quality Care for Elder People</h4>
+                                            <h4 className="blog-1-title">Indian Elder Care: Common Issues and How to Manage Them</h4>
                                             <ul className="d-flex blog-1-meta-info">
                                                 <li><i className="icon-12"></i>Admin</li>
                                             </ul> 
-                                            <h4 className="fs_28 mb_20">Prioritize Their Physical and Emotional Well-being</h4>   
+                                            <h4 className="fs_28 mb_20">The Growing Need for Elder Care in India</h4>   
                                             <ul className="list-style-one mb_40">
-                                                <li><b>Regular Health Check-ups</b>: Ensure regular medical assessments to monitor their health status and promptly address any emerging concerns.</li>
-                                                <li><b>Encourage Physical Activity</b>: Tailor gentle exercises to their abilities to maintain mobility and enhance strength.
+                                                <li>With people’s routines getting increasingly hectic with each passing day, the elders need more care and attention now than ever before. The National Policy for Older Persons was established in 1999 by the Ministry of Statistics and Programme Implementation and the National Statistics Office of the Government of India. The older adult population has increased from 24.7 million in the 1961 census to a projected 137.9 million and 158.7 million for the 2022 and 2025 censuses, respectively, accounting for 11.1% of the overall population.
                                                 </li>
-                                                <li><b>Ensure a Balanced Diet</b>: Provide nourishing meals rich in essential nutrients to bolster overall well-being.
-                                                </li>
-                                                <li><b>Offer Emotional Support</b>: Validate their feelings and provide comfort during times of stress, anxiety, or sadness.
-                                                </li>
-                                                <li><b>Promote Social Interaction</b>: Facilitate opportunities for meaningful social engagement to combat loneliness and foster a sense of belonging.
-                                                </li>
+                                                <li>The senior citizens in the country, in their most lonely time, are left to fend for themselves in their later years. In 1961, the older adult population in India was 24.7 million. According to the Census undertaken in 2011, 8% of India’s total population (100 million) was aged above 60.</li>
+                                                <li>In India, 85% of the elderly are living with family, 8% are living with spouse only, 6% are living alone whereas 2% are living with their relatives, revealed the annual report prepared by HelpAge India in 2018.</li>
                                             </ul>
-                                            <h4 className="fs_28 mb_20">Seek Professional Assistance When Needed</h4>   
+                                            <h4 className="fs_28 mb_20">Common Issues in Indian Elder Care</h4>
                                             <ul className="list-style-one mb_40">
-                                                <li><b>Elder Care Services</b>: Consider professional elder care services or health aides to aid with daily activities and companionship.
-They offer personalized care plans, flexibility, and continuity of care, ensuring seniors receive assistance with daily activities and companionship tailored to their needs, also involve families in the care process and provide comprehensive support beyond basic tasks. 
-They provide peace of mind for families knowing their loved ones receive round-the-clock care from trained professionals. By weighing these factors, individuals and families can make informed decisions to ensure their elderly loved ones receive the best possible care and support.
-</li>
-                                                
+                                                <li><b>Health Problems</b>: Chronic illnesses like diabetes, hypertension, arthritis, and heart diseases are prevalent among the elderly. Mental health issues, including depression and dementia, also pose significant challenges.</li>
+                                                <li><b>Financial Dependence</b>: Many elderly individuals in India are financially dependent on their children due to a lack of savings and inadequate pension schemes. This dependency can lead to stress and conflicts within families.</li>
+                                                <li><b>Loneliness and Isolation</b>: With the rise of nuclear families and the migration of younger generations to urban areas or abroad, many elderly people are left alone, leading to feelings of loneliness and social isolation.</li>
+                                                <li><b>Inadequate Healthcare Services</b>: Access to quality healthcare remains a significant concern, particularly in rural areas. Many elderly individuals struggle to receive timely and effective medical attention.</li>
+                                                <li><b>Crime Against Aged Persons</b>: This age group is vulnerable to crimes including murder, attempted murder, bodily harm, deceit, robbery, dacoity, and extortion.</li>
                                             </ul>
-                                            <h4 className="fs_28 mb_20">Create a Safe and Comfortable Environment</h4>   
+                                            <h4 className="fs_28 mb_20">Managing Elder Care Effectively</h4>
                                             <ul className="list-style-one mb_40">
-                                                <li><b>Home Modifications</b>: Adapt living spaces to enhance safety and accessibility, including installing grab bars and non-slip flooring.
+                                                <li><b>Regular Health Check-ups</b>: Encourage routine medical examinations to monitor and manage chronic conditions. Preventive healthcare and timely medical intervention can significantly improve the quality of life for the elderly.</li>
+                                                <li><b>Financial Planning</b>: Promote financial literacy and planning among the elderly. Encourage them to invest in pension schemes, health insurance, and savings plans early on. For those already dependent, families should strive to create a supportive financial environment.
                                                 </li>
-                                                <li><b>Medication Management</b>:  Organize medications and establish reminders to ensure adherence and prevent errors.
+                                                <li><b>Community Engagement</b>: Combat loneliness by encouraging participation in community groups and activities. Senior citizen clubs, religious gatherings, and local events can provide much-needed social interaction and a sense of belonging.
                                                 </li>
-                                                <li><b>Emergency Preparedness</b>: Develop a comprehensive emergency plan with access to essential resources and contacts.
+                                                <li><b>Accessible Healthcare</b>: Advocate for better healthcare infrastructure, especially in rural areas. Telemedicine can play a crucial role in providing remote consultations and reducing the need for frequent travel.
                                                 </li>
-                                            </ul>
-                                            <h4 className="fs_28 mb_20">Foster Meaningful Connections and Activities</h4>   
-                                            <ul className="list-style-one mb_40">
-                                                <li><b>Engage in Hobbies</b>: Encourage participation in activities they enjoy to stimulate mental and emotional well-being.
+                                                <li><b>Awareness and Support for Elder Abuse</b>: Educate the elderly and their families about the signs of abuse and the resources available for help. Establish helplines and support groups to provide immediate assistance and counselling.
                                                 </li>
-                                                <li><b>Create Family Traditions</b>:  Establish rituals and traditions that promote a sense of belonging and connection across generations.
-                                                </li>
-                                                <li><b>Celebrate Milestones</b>: Honor special occasions to create cherished memories and reinforce feelings of love and appreciation.
-                                                </li>
-                                            </ul>
+                                            </ul>    
                                         
-                                            <p className="mb_40">Supporting and caring for the elderly requires a multifaceted approach that addresses their physical, emotional, financial, and social needs. By implementing these strategies with compassion and dedication, we can ensure our elderly loved ones enjoy a fulfilling and dignified quality of life in their golden years. Let’s cherish and honor their wisdom and contributions as we walk alongside them in this journey of care and companionship.
-                                            </p>
+                                            <p className="mb_40">Elder care in India requires a compassionate and comprehensive approach. By addressing health, financial, social, and safety concerns, we can ensure our elders live with dignity and respect, honouring their invaluable contributions to society.</p>
                                                          
                                         </div>
                                         {/* <div className="comments-area">

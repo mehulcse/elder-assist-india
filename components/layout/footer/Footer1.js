@@ -1,4 +1,7 @@
 import Link from "next/link"
+import {
+    ElderAssistIndiaLogoIcon
+  } from "@/public/assets/images/icons/company/index";
 
 export default function Footer1() {
     return (
@@ -7,7 +10,7 @@ export default function Footer1() {
             <div className="footer-1-top">
                 <div className="auto-container">
                     <div className="footer-1-top-content d-flex align-items-center justify-content-between">
-                        <div className="logo"><Link href="/"><img src="assets/images/logo.png" alt="" /></Link></div>
+                        <div className="logo"><Link href="/"><img src="assets/images/logo.png" alt="" /></Link></div> 
                         <ul className="footer-1-social-icon d-flex align-items-center">
                             <li><Link href="https://www.facebook.com/profile.php?id=61559504316514"><i className="fab fa-facebook-f"></i></Link></li>
                             <li><Link href="https://x.com/eldercare07"><i className="fab fa-twitter"></i></Link></li>

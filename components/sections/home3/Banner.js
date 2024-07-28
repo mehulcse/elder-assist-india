@@ -36,34 +36,34 @@ export default function Banner() {
                 <Swiper {...swiperOptions} className="banner-carousel theme_carousel owl-theme">
                     {/* Slide Item */}
                     <SwiperSlide className="slide-item">
-                        <div className="banner-feature-image d-none d-lg-block" style={{backgroundImage: 'url(assets/images/main-slider/banner-3.jpg)'}}></div>
+                        <div className="banner-feature-image d-none d-lg-block" style={{backgroundImage: 'url(assets/images/main-slider/love-and-care-for-senior.svg)'}}></div>
                         <div className="content-outer">
                             <div className="content-box">
                                 <div className="inner">
                                     <h4>Change The World</h4>
-                                    <h1>Finding The <br/>
+                                    <h1>Discover the <br/>
                                         Best <span>Senior Care</span> <br/>
-                                        Services</h1>
-                                    <div className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit <br/> Turpis ridiculus tellus.</div>
-                                    <div className="link-box">
+                                        Services <br/> tailored to your <br/> need.</h1>
+                                    {/* <div className="link-box">
                                         <Link href="/" className="btn-1 btn-large">Discover More <span></span></Link>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
                     {/* Slide Item */}
                     <SwiperSlide className="slide-item">
-                        <div className="banner-feature-image d-none d-lg-block" style={{backgroundImage: 'url(assets/images/main-slider/banner-3.jpg)'}}></div>
+                        <div className="banner-feature-image d-none d-lg-block" style={{backgroundImage: 'url(assets/images/main-slider/finding-best-senior-care.svg)'}}></div>
                         <div className="content-outer">
                             <div className="content-box">
                                 <div className="inner">
                                     <h4>Change The World</h4>
-                                    <h1>Love & <br/> Care For <br/> Senior</h1>
-                                    <div className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit <br/> Turpis ridiculus tellus.</div>
+                                    <h1>Providing Love & <br/> Care For <br/> Senior with <br/> compassion and <br/> dedication.
+                                    </h1>
+                                    {/* <div className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit <br/> Turpis ridiculus tellus.</div>
                                     <div className="link-box">
                                         <Link href="/" className="btn-1 btn-large">Discover More <span></span></Link>
-                                    </div>
+                                    </div> */}
                                 </div>                               
                             </div>
                         </div>

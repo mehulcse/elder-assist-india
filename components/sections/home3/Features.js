@@ -8,7 +8,7 @@ export default function Features() {
                 <div className="fundraise-1-shape" style={{backgroundImage: 'url(assets/images/shape/pattern-4.png)'}}></div>
                 <div className="auto-container">
                     <div className="section_heading text-center mb_90">
-                        <span className="section_heading_title_small">Fund Raise</span>
+                        <span className="section_heading_title_small">Subscription Plans</span>
                         <h2 className="section_heading_title_big">We’re Take Care of Your Problems <br/> Carefully</h2>
                     </div>
                     <div className="row">

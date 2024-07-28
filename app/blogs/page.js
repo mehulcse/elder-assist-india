@@ -5,7 +5,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Blog Grid">
+            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Blogs">
                 <div>
                     <section className="blog-1-section">
                         <div className="auto-container">
@@ -13,11 +13,11 @@ export default function Home() {
                                 <div className="col-lg-6 col-md-6">
                                     <div className="blog-1-block wow fadeInLeft">
                                         <div className="blog-1-image">
-                                            <Link href="/blog-details-1"><img src="assets/images/resource/blog-1.jpg" alt=""/></Link>
+                                            <Link href="/blog-common-issues"><img src="assets/images/resource/blog-1.svg" alt="blog1"/></Link>
                                             <div className="blog-1-date"><span>30 </span><br/> JUNE</div>
                                         </div>
                                         <div className="blog-1-bottom-content alt">
-                                            <h4 className="blog-1-title"><Link href="/blog-details-1">Indian Elder Care: Common Issues and How to Manage Them</Link></h4>
+                                            <h4 className="blog-1-title"><Link href="/blog-common-issues">Indian Elder Care: Common Issues and How to Manage Them</Link></h4>
                                             <ul className="d-flex blog-1-meta-info">
                                                 <li><i className="icon-12"></i>Admin</li>
                                             </ul>
@@ -27,12 +27,12 @@ export default function Home() {
                                 </div>
                                 <div className="col-lg-6 col-md-6">
                                     <div className="blog-1-block wow fadeInLeft">
-                                        <div className="blog-1-image">
-                                            <Link href="/blog-details-2"><img src="assets/images/resource/blog-2.jpg" alt=""/></Link>
+                                        <div className="blog-ensure-quality">
+                                            <Link href="/blog-ensure-quality"><img src="assets/images/resource/blog-2.svg" alt="blog2"/></Link>
                                             <div className="blog-1-date"><span>30</span> <br/> JUNE</div>
                                         </div>
                                         <div className="blog-1-bottom-content alt">
-                                            <h4 className="blog-1-title"><Link href="/blog-details-2">How to Ensure Quality Care for Elder People</Link></h4>
+                                            <h4 className="blog-1-title"><Link href="/blog-ensure-quality">How to Ensure Quality Care for Elder People</Link></h4>
                                             <ul className="d-flex blog-1-meta-info">
                                                 <li><i className="icon-12"></i>Admin</li>
                                             </ul>

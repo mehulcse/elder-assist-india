@@ -17,37 +17,37 @@ export default function Home() {
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-4-block text-center wow fadeInLeft" >
                                     <div className="service-4-icon"><i className="icon-6"></i></div>
-                                    <h4 className="service-4-title mb_60"><Link href="/service-details">Medical & Health Solutions</Link></h4>
+                                    <h4 className="service-4-title mb_60"><Link href="/medical-health">Medical &amp; Health Solutions</Link></h4>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-4-block text-center wow fadeInLeft">
                                     <div className="service-4-icon"><i className="icon-7"></i></div>
-                                    <h4 className="service-4-title mb_60"><Link href="/service-details">Everyday Essentials Hub</Link></h4>
+                                    <h4 className="service-4-title mb_60"><Link href="/everyday-essentials">Everyday Essentials Hub</Link></h4>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-4-block text-center wow fadeInLeft">
                                     <div className="service-4-icon"><i className="icon-8"></i></div>
-                                    <h4 className="service-4-title mb_60"><Link href="/service-details">Financial Care</Link></h4>
+                                    <h4 className="service-4-title mb_60"><Link href="/financial-care">Financial Care</Link></h4>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-4-block text-center wow fadeInLeft" >
                                     <div className="service-4-icon"><i className="icon-36"></i></div>
-                                    <h4 className="service-4-title"><Link href="/service-details">Emergency Services</Link></h4>
+                                    <h4 className="service-4-title"><Link href="/emergency-services">Emergency Services</Link></h4>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-4-block text-center wow fadeInLeft">
                                     <div className="service-4-icon"><i className="icon-37"></i></div>
-                                    <h4 className="service-4-title"><Link href="/service-details">Fun & Wellness</Link></h4>
+                                    <h4 className="service-4-title"><Link href="/fun-wellness">Fun &amp; Wellness</Link></h4>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-4-block text-center wow fadeInLeft">
                                     <div className="service-4-icon"><i className="icon-38"></i></div>
-                                    <h4 className="service-4-title"><Link href="/service-details">Other Care</Link></h4>
+                                    <h4 className="service-4-title"><Link href="/other-care">Other Care</Link></h4>
                                 </div>
                             </div>
                         </div>

@@ -14,29 +14,29 @@ export default function Services() {
                         <div className="col-lg-3 col-md-6">
                             <div className="service-4-block text-center wow fadeInLeft">
                                 <div className="service-4-icon"><i className="icon-6"></i></div>
-                                <h4 className="service-4-title"><Link href="/service-details"> Assisted Living</Link></h4>
+                                <h4 className="service-4-title"><Link href="/medical-health">Medical &amp; Health Solutions</Link></h4>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div className="service-4-block text-center wow fadeInLeft">
                                 <div className="service-4-icon"><i className="icon-7"></i></div>
-                                <h4 className="service-4-title"><Link href="/service-details">Medical & Health</Link></h4>
+                                <h4 className="service-4-title"><Link href="/everyday-essentials">Everyday Essentials Hub</Link></h4>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div className="service-4-block text-center wow fadeInLeft" >
                                 <div className="service-4-icon"><i className="icon-8"></i></div>
-                                <h4 className="service-4-title"><Link href="/service-details">Residential Care</Link></h4>
+                                <h4 className="service-4-title"><Link href="/financial-care">Financial Care</Link></h4>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div className="service-4-block text-center wow fadeInLeft">
-                                <div className="service-4-icon"><i className="icon-35"></i></div>
-                                <h4 className="service-4-title"><Link href="/service-details">Nursing Care</Link></h4>
+                            <div className="service-4-icon"><i className="icon-36"></i></div>
+                                <h4 className="service-4-title"><Link href="/emergency-services">Emergency Services</Link></h4>
                             </div>
                         </div>
                     </div>
-                    <div className="service-4-link-btn text-center"><Link href="/services-2" className="btn-1">More Services<span></span></Link></div>
+                    <div className="service-4-link-btn text-center"><Link href="/services" className="btn-1">More Services<span></span></Link></div>
                 </div>
             </section>
 
