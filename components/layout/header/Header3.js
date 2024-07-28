@@ -10,7 +10,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSide
                     <div className="auto-container">
                         <div className="inner-container d-flex align-items-center justify-content-between">
                             <div className="logo-box">
-                                <div className="logo"><a href="/"><img src="assets/images/logo.png" alt=""/></a></div>
+                                <div className="logo"><a href="/"><img src="assets/images/logo.png" alt="elder-assist-logo" className="company-logo"/></a></div>
                             </div>
                             <div className="right-column d-flex align-items-center">     
                                 <div className="nav-outer">
@@ -21,7 +21,12 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSide
                                         </div>
                                     </nav>
                                 </div>
-                                <div className="header-upper-phone-number"><i className="icon-22"></i><a href="tel:(91)-xxx-xxx-xxxx">(91)-xxx-xxx-xxxx</a></div>                   
+                                <div className="header-upper-phone-number"><i className="icon-22"></i><a href="tel:(91)-xxx-xxx-xxxx">(91)-xxx-xxx-xxxx</a></div>
+                                <div >
+                                    <a href="https://wa.me/918860244939?text-Hello How can I help you ?" target="_blank">
+                                    (91)-xxx-xxx-xxxx2
+                                    </a>    
+                                </div>                   
                                 {/*<div className="header-link-btn d-none d-md-block"><a href="/" className="btn-1">Donation Now <span></span></a></div>*/}
                             </div>                        
                         </div>
@@ -35,7 +40,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSide
                             <div className="auto-container">
                                 <div className="inner-container d-flex align-items-center justify-content-between">
                                     <div className="logo-box">
-                                        <div className="logo"><a href="/"><img src="assets/images/logo.png" alt=""/></a></div>
+                                        <div className="logo"><a href="/"><img src="assets/images/logo.png" alt="elder-assist-logo" className="company-logo"/></a></div>
                                     </div>
                                     <div className="right-column d-flex align-items-center">     
                                         <div className="nav-outer">

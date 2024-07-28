@@ -535,7 +535,6 @@ ul.header-top-1-contact-info li a:hover {
 .main-header .header-upper .logo-box .logo {
 	position: relative;
 	display: block;
-	padding: 20px 0px;
 }
 .main-header .header-upper .right-column {
 	position: relative;
@@ -1058,7 +1057,7 @@ ul.header-top-1-contact-info li a:hover {
 	font-size: 20px;
 }
 .main-header .sticky-header .header-upper .logo-box .logo {
-	padding: 13.5px 0px;
+	padding: 0;
 }
 .sticky-header .main-menu .navigation>li {
 	padding: 17px 0px;
@@ -3070,7 +3069,7 @@ form textarea:focus {
 /* header style two */
 
 .header-style-two .main-menu .navigation>li {
-    padding: 42px 0px;
+    padding: 20px 0px;
 }
 
 .header-style-two .sticky-header .main-menu .navigation>li {
@@ -5896,7 +5895,13 @@ section.faq-2-section .auto-container.p_relative {
 	}
 }
 
+img.company-logo{
+    height: 140px;
+}
 
+.sticky-header img.company-logo{
+    height: 100px;
+}
 
 
 
