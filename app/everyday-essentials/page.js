@@ -36,8 +36,8 @@ export default function Home() {
                 <div className="service-details">
                   <div className="service-details-image mb_60">
                     <img
-                      src="assets/images/resource/medical_health_solutions.svg"
-                      alt="medical-health-solutions-page"
+                      src="assets/images/resource/everyday-essentials.svg"
+                      alt="everyday-essentials-page"
                     />
                   </div>
                   <h2 className="service-details-title mb_20">

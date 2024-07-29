@@ -5,10 +5,6 @@ import {
   DiscountedMedicinesIcon,
   DoctorsAppointmentIcon,
   NursingHomeIcon,
-  BedsideCareIcon,
-  PhysiotherapyHomeIcon,
-  VisionAidIcon,
-  SpeechHearingAidIcon,
 } from "@/public/assets/images/icons/services/index";
 import Contact from "@/components/sections/contact/contact";
 import CategoryWidget from "@/components/elements/CategoryWidget";
@@ -36,8 +32,8 @@ export default function Home() {
                 <div className="service-details">
                   <div className="service-details-image mb_60">
                     <img
-                      src="assets/images/resource/medical_health_solutions.svg"
-                      alt="medical-health-solutions-page"
+                      src="assets/images/resource/fun-and-wellness.svg"
+                      alt="fun-and-wellness-page"
                     />
                   </div>
                   <h2 className="service-details-title mb_20">
