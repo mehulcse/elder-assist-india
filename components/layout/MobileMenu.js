@@ -57,7 +57,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                     isActive.key == 2 ? "dropdown current" : "dropdown"
                   }
                 >
-                  <Link href="/services-1" onClick={handleMobileMenu}>
+                  <Link href="/services" onClick={handleMobileMenu}>
                     Elderly Care Services
                   </Link>
                   <ul

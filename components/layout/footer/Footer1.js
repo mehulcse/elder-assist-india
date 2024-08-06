@@ -124,7 +124,7 @@ export default function Footer1() {
                     </li>
                     <li>
                       <i className="icon-3"></i>
-                      <Link href="mailto:example@lovegiver.com">
+                      <Link href="mailto:info@elderassistindia.com">
                         info@elderassistindia.com
                       </Link>
                     </li>

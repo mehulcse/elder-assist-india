@@ -30,7 +30,7 @@ export default function Home() {
                                         </li>
                                         <li>
                                             <h4 className="fs_16 mb_10"><i className="icon-15 mr_10 fs_15"></i>Email</h4>
-                                            <p className="fs_12"><Link href="mailto:elderassistindia@support.com">elderassistindia@support.com</Link></p>
+                                            <p className="fs_12"><Link href="mailto:info@elderassistindia.com">info@elderassistindia.com</Link></p>
                                         </li>
                                     </ul>
                                 </div>
