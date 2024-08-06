@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -24,52 +24,86 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
       });
     }
   };
-    return (
-        <>
+  return (
+    <>
+      {/*Mobile Menu */}
+      <div className="mobile-menu">
+        <div className="menu-backdrop" onClick={handleMobileMenu}></div>
+        <div className="close-btn" onClick={handleMobileMenu}>
+          <i className="fal fa-times"></i>
+        </div>
 
-            {/*Mobile Menu */}
-            <div className="mobile-menu">
-                <div className="menu-backdrop" onClick={handleMobileMenu}></div>
-                <div className="close-btn" onClick={handleMobileMenu}><i className="fal fa-times"></i></div>
-                
-                <nav className="menu-box">
-                    <div className="nav-logo"><Link href="/"><img src="assets/images/logo-light.png" alt="" /></Link></div>
-                    {/*menu-outer*/}
-                    <div className="menu-outer">
-                        <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
-                            <ul className="navigation clearfix">
-                            
-                                <li className={isActive.key == 1 ? "dropdown current" : "dropdown"}><Link href="/" onClick={handleMobileMenu}>Home</Link>
-                                    <ul style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>
-                                        <li><Link href="/" onClick={handleMobileMenu}>Home Page 1</Link></li>
-                                        <li><Link href="/index-2" onClick={handleMobileMenu}>Home Page 2</Link></li>
-                                        <li><Link href="/index-3" onClick={handleMobileMenu}>Home Page 3</Link></li>
-                                        <li><Link href="/index-4" onClick={handleMobileMenu}>Home Page 4</Link></li>                                       
-                                    </ul>
-                                    <div className={isActive.key == 1 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(1)}><span className="fa fa-angle-right" /></div>
-                                </li>
-                                
-                                <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}><Link href="/services-1" onClick={handleMobileMenu}>Services</Link>
-                                    <ul style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
-                                        <li><Link href="/services-1" onClick={handleMobileMenu}>Services 1</Link></li>
-                                        <li><Link href="/services-2" onClick={handleMobileMenu}>Services 2</Link></li>
-                                        <li><Link href="/service-details" onClick={handleMobileMenu}>Service Details</Link></li>
-                                    </ul>
+        <nav className="menu-box">
+          <div className="nav-logo">
+            <div className="logo">
+              <a href="/">
+                <img
+                  src="assets/images/logo.png"
+                  alt="elder-assist-logo"
+                  className="company-logo"
+                />
+              </a>
+            </div>
+          </div>
+          {/*menu-outer*/}
+          <div className="menu-outer">
+            <div
+              className="collapse navbar-collapse show clearfix"
+              id="navbarSupportedContent"
+            >
+              <ul className="navigation clearfix">
+                <li
+                  className={
+                    isActive.key == 2 ? "dropdown current" : "dropdown"
+                  }
+                >
+                  <Link href="/services-1" onClick={handleMobileMenu}>
+                    Elderly Care Services
+                  </Link>
+                  <ul
+                    style={{
+                      display: `${isActive.key == 2 ? "block" : "none"}`,
+                    }}
+                  >
+                    <li>
+                      <Link href="/medical-health">
+                        Medical &amp; Health Solutions
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/everyday-essentials">
+                        Everyday Essentials Hub
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/financial-care">Financial Care</Link>
+                    </li>
+                    <li>
+                      <Link href="/emergency-services">Emergency Services</Link>
+                    </li>
+                    <li>
+                      <Link href="/fun-wellness">Fun &amp; Wellness</Link>
+                    </li>
+                    <li>
+                      <Link href="/other-care">Other Care</Link>
+                    </li>
+                  </ul>
 
-                                    <div className={isActive.key == 2 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(2)}><span className="fa fa-angle-right" /></div>
-                                </li>
+                  <div
+                    className={
+                      isActive.key == 2 ? "dropdown-btn open" : "dropdown-btn"
+                    }
+                    onClick={() => handleToggle(2)}
+                  >
+                    <span className="fa fa-angle-right" />
+                  </div>
+                </li>
 
-                                <li className={isActive.key == 3 ? "dropdown current" : "dropdown"}><Link href="/living-option"onClick={handleMobileMenu}>Living Option</Link>
-                                    <ul style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>
-                                        <li><Link href="/living-option" onClick={handleMobileMenu}>Living Option</Link></li>
-                                        <li><Link href="/living-option-details" onClick={handleMobileMenu}>Living Option Details</Link></li>
-                                    </ul>
+                <li>
+                  <Link href="/living-option">Subscription Plan</Link>{" "}
+                </li>
 
-                                    <div className={isActive.key == 3 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(3)}><span className="fa fa-angle-right" /></div>
-                                </li>
-
-
-                                <li className={isActive.key == 4 ? "dropdown current" : "dropdown"}>
+                {/* <li className={isActive.key == 4 ? "dropdown current" : "dropdown"}>
                                     <Link href="/#" onClick={handleMobileMenu}>Pages</Link>
                                     <ul style={{ display: `${isActive.key == 4 ? "block" : "none"}` }}>
                                         <li><Link href="/about" onClick={handleMobileMenu}>About</Link></li>
@@ -105,11 +139,15 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                         <li><Link href="/error" onClick={handleMobileMenu}>404 Error Page</Link></li>
                                     </ul>
                                     <div className={isActive.key == 4 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(4)}><span className="fa fa-angle-right" /></div>
-                                </li>
+                                </li> */}
+                <li>
+                  <Link href="/blogs">Blogs</Link>
+                </li>
+                <li>
+                  <Link href="/faq">Faq</Link>
+                </li>
 
-
-
-                                <li className={isActive.key == 8 ? "dropdown current" : "dropdown"}>
+                {/* <li className={isActive.key == 8 ? "dropdown current" : "dropdown"}>
                                     <Link href="/#" onClick={handleMobileMenu}>Blog</Link>
                                     <ul style={{ display: `${isActive.key == 8 ? "block" : "none"}` }}>
                                         <li><Link href="/blog-grid">Blog Grid</Link></li>
@@ -117,31 +155,44 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                         <li><Link href="/blog-details">Blog Details</Link></li>
                                     </ul>
                                     <div className={isActive.key == 8 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(8)}><span className="fa fa-angle-right" /></div>
-                                </li>
-                                <li><Link href="/contact" onClick={handleMobileMenu}>Contact</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                    <div className="social-links">
-                        <ul className="clearfix">
-                            <li><Link href="/"><span className="fab fa-twitter"></span></Link></li>
-                            <li><Link href="/"><span className="fab fa-facebook-square"></span></Link></li>
-                            <li><Link href="/"><span className="fab fa-pinterest-p"></span></Link></li>
-                            <li><Link href="/"><span className="fab fa-instagram"></span></Link></li>
-                            <li><Link href="/"><span className="fab fa-youtube"></span></Link></li>
-                        </ul>
-                    </div>
-                </nav>
+                                </li> */}
+                <li>
+                  <Link href="/contact">Contact Us</Link>
+                </li>
+              </ul>
             </div>
-            {/*End Mobile Menu */}
-            
-            
-            <div className="nav-overlay" style={{ display: `${isSidebar ? "block" : "none"}` }} onClick={handleSidebar} />
+          </div>
 
-          
+          <div className="social-links">
+            <ul className="clearfix">
+              <li>
+                <Link href="https://www.facebook.com/profile.php?id=61562833385732">
+                  <span className="fab fa-facebook-square"></span>
+                </Link>
+              </li>
+              <li>
+                <Link href="https://x.com/eldercare07">
+                  {" "}
+                  <span className="fab fa-twitter"></span>
+                </Link>
+              </li>
+              <li>
+                <Link href="https://www.linkedin.com/in/elder-assit-india-6a184331a/">
+                  <span className="fab fa-linkedin-in"></span>
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      {/*End Mobile Menu */}
 
-        </>
-    )
-}
+      <div
+        className="nav-overlay"
+        style={{ display: `${isSidebar ? "block" : "none"}` }}
+        onClick={handleSidebar}
+      />
+    </>
+  );
+};
 export default MobileMenu;

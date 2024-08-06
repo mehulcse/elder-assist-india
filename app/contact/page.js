@@ -5,7 +5,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Contact">
+            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Contact Us">
                 <div>
 
                     <section className="section-padding pb-0 p_relative">
@@ -18,24 +18,24 @@ export default function Home() {
                                         <h2 className="section_heading_title_big">Explore Our Office <br/> Worldwide</h2>
                                     </div>
                                 </div>
-                                <div className="col-lg-7">
+                                <div className="col-lg-6">
                                     <ul className="contact-info-1 d-flex flex-wrap justify-content-lg-end mb_40">
                                         <li>
-                                            <h4 className="fs_20 mb_10"><i className="icon-14 mr_10 fs_18"></i>Location</h4>
-                                            <p>New Hyde Park, NY 11040</p>
+                                            <h4 className="fs_16 mb_10"><i className="icon-14 mr_10 fs_18"></i>Location</h4>
+                                            <p className="fs_12">Elder Assist India, East Delhi, India</p>
                                         </li>
                                         <li>
-                                            <h4 className="fs_20 mb_10"><i className="icon-16 mr_10 fs_18"></i>Phone No</h4>
-                                            <p><Link href="tel:(+91) 333 666 0021">(+91) 333 666 0021</Link></p>
+                                            <h4 className="fs_16 mb_10"><i className="icon-16 mr_10 fs_18"></i>Phone No</h4>
+                                            <p className="fs_12"><Link href="tel:(+91) XXX XXXX XXXX">(+91) XXX XXXX XXXX</Link></p>
                                         </li>
                                         <li>
-                                            <h4 className="fs_20 mb_10"><i className="icon-15 mr_10 fs_15"></i>Email</h4>
-                                            <p><Link href="mailto:support@example.com">support@example.com</Link></p>
+                                            <h4 className="fs_16 mb_10"><i className="icon-15 mr_10 fs_15"></i>Email</h4>
+                                            <p className="fs_12"><Link href="mailto:elderassistindia@support.com">elderassistindia@support.com</Link></p>
                                         </li>
                                     </ul>
                                 </div>
                                 <div className="contact-map p_relative">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.6895046810805!2d-122.52642526124438!3d38.00014098339506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085976736097a2f%3A0xbe014d20e6e22654!2sSan Rafael%2C California%2C Hoa Kỳ!5e0!3m2!1svi!2s!4v1678975266976!5m2!1svi!2s" height={570} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14004.553466003963!2d77.28314836458547!3d28.697054301357507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd0f34f5d6c3%3A0xa3c7e2b8c0cf75bb!2sElder%20Assist%20India!5e0!3m2!1sen!2sin!4v1691326341692!5m2!1sen!2sin" height={570} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                             </div>
                         </div>
@@ -63,7 +63,7 @@ export default function Home() {
                                         </div>
                                         
                                         <div className="form-group col-md-12">
-                                            <textarea name="form_message" placeholder="Massage"></textarea>
+                                            <textarea name="form_message" placeholder="Message"></textarea>
                                         </div>
                                         
                                         <div className="form-group col-md-12 text-center">

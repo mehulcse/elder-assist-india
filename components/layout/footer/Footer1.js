@@ -68,19 +68,19 @@ export default function Footer1() {
                   </div>
                   <ul className="link-widget-1-list">
                     <li>
-                      <Link href="#">About Us</Link>
+                      <Link href="/about">About Us</Link>
                     </li>
                     <li>
-                      <Link href="#">Services</Link>
+                      <Link href="/services">Elderly Care Services</Link>
                     </li>
                     <li>
-                      <Link href="#">Subscription Plans</Link>
+                      <Link href="/subscription-plan">Subscription Plans</Link>
                     </li>
                     <li>
-                      <Link href="#">Blogs</Link>
+                      <Link href="/blogs">Blogs</Link>
                     </li>
                     <li>
-                      <Link href="#">Contact Us</Link>
+                      <Link href="/contact">Contact Us</Link>
                     </li>
                   </ul>
                 </div>
@@ -98,13 +98,13 @@ export default function Footer1() {
                       <Link href="#">Terms & Condition</Link>
                     </li>
                     <li>
-                      <Link href="#">Support</Link>
+                      <Link href="/cookies-policy">Cookies Policy</Link>
                     </li>
                     <li>
-                      <Link href="#">Disclaimer</Link>
+                      <Link href="/disclaimer">Disclaimer</Link>
                     </li>
                     <li>
-                      <Link href="#">Faq</Link>
+                      <Link href="/faq">Faq</Link>
                     </li>
                   </ul>
                 </div>

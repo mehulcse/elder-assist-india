@@ -1113,11 +1113,9 @@ ul.header-top-1-contact-info li a:hover {
 	display: block !important;
 }
 .mobile-menu .nav-logo {
-	position: relative;
-	padding: 30px 25px;
-	text-align: left;
-	margin-bottom: 100px;
-	margin-top: 25px;
+	display: flex;
+    justify-content: center;
+    margin: 40px 0;
 }
 .mobile-menu-visible {
 	overflow: hidden;
@@ -2893,7 +2891,7 @@ p.testimonial-1-designation {
 
 section.blog-1-section {
     position: relative;
-    padding: 150px 0 120px;
+    padding: 100px 0 120px;
 }
 
 .blog-1-image {
@@ -3957,7 +3955,7 @@ h4.service-4-title a:hover {
 
 section.faq-1-section {
     position: relative;
-    padding: 150px 0 120px;
+    padding: 150px 0 10px;
 }
 
 section.funfact-1-section.alt {
@@ -4212,6 +4210,14 @@ h4.event-2-title {
 		margin-right: 0;
 		width: 100%;
 	}
+    ul.banner-social-icon {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .banner-section.style-three  .content-box {
+        min-height: 600px;
+        padding: 10px 15px 100px;
+    }
 }
 
 
@@ -5849,7 +5855,7 @@ section.faq-2-section .auto-container.p_relative {
 		width: 100%;
 	}
 	.logo img {
-		width: 190px;
+		width: 140px;
 	}
 	.about-1-video-area {
 		position: relative;

@@ -6,44 +6,16 @@ export default function Home() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
-      <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="About Us">
-        <section className="about-1-section">
+      <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Disclaimer">
+        <section className="disclaimer-1-section">
           <div className="auto-container">
             <div className="section_heading mb_20">
-              <span className="section_heading_title_small">About Us</span>
-              <h2 className="section_heading_title_big">
-                Elder Assist India: Quality Elderly Care for a Growing
-                Population
-              </h2>
+             
             </div>
-            <p className="about-1-desc">
-              Welcome to Elder Assist India, a team dedicated to providing
-              top-tier care for the elderly. We are uniquely positioned to
-              address the evolving needs of India's rapidly growing senior
-              population. We ensure seniors lead a dignified and fulfilling life
-              through our personalized, holistic services. We offer a
-              comprehensive suite of services designed to meet the diverse needs
-              of our elderly clientele. Our range of services spans from{" "}
-              <b>
-                Medical & Healthcare Solutions, Everyday Essentials Hub,
-                Financial Care, Emergency Services, Fun & Wellness activities
-              </b>
-              .<br />
-              <b>Meeting the Demand of India's Changing Demographics</b>
-              <br />
-              In light of India's demographic shifts, the need for professional
-              elderly care is more important than ever. The United Nations
-              Population Fund projects that by 2026, India's senior population
-              will reach 173 million. This underlines the vital role that{" "}
-              <b>Elder Assist India</b> team plays in responding to the
-              escalating demand for professional elderly care services in the
-              country.
-              <br />
-              <b>
-                Join us as we strive to make a significant difference in the
-                lives of India's elderly population, ensuring they receive the
-                care and respect they deserve.
-              </b>
+            <p className="disclaimer-1-desc">
+            This website (‘Website’) is designed and maintained by Cognitive Core AI Private Limited (‘Company’) to provide information to the users on "As-Is" basis and does not guarantee the accuracy or reliability of such information and Company shall not be liable for any losses that occur as a result of reliance on the information provided through the Website . The Company cannot guarantee and does not promise any specific results from use of the Website and/or the service or information provided through the Website.
+The Website is merely a platform to provide information regarding the services of the Company. The Company makes no representations or guarantees regarding the Website, or any content on it, of the Website, including, but not limited to, broken links, hyperlinks, inaccuracies or typographical and/or clerical errors, nor does it warrant that the Website will work/operate error-free or that the Website or its servers are free of computer viruses or other harmful mechanisms. The Company is, therefore, not responsible for, and expressly disclaims all liability for, damages of any kind arising out of use of the Website, reference to, or reliance on any information contained and/or collected in the Website. While the information contained within the Website is periodically updated, the Company gives no guarantee that the information provided in this Website is correct, complete, and up-to-date. Nothing on the Website shall be considered an endorsement, representation or warranty with respect to any user or third party, whether in regard to its contents, information, services or otherwise. Further, although the Company is committed towards protecting the privacy of its users, but the Company cannot ensure or warrant the security of any information you transmit to us. As a user of the Website you agree and acknowledge that under no circumstances the Company/Website shall be liable to its users and/or any person claiming through such users and/or any third party(ies) for any action, suit, losses, cost, expenses or damage which is indirect, incidental, consequential, special or exemplary, or liabilities to third parties arising from any source. The users assume all responsibility and risk for using/accessing the Website.
+The users acknowledge and undertake that they are using/accessing the Website at their own risk and are using at their best and prudent judgment. The Company shall not be liable nor responsible for any actions or inactions of its users and/or for any breach of conditions, representations or warranties by other users of the Website and hereby expressly disclaim any and all responsibility and liability in that regard.
             </p>
            
           </div>
