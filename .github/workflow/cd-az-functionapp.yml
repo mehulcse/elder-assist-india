@@ -23,8 +23,6 @@ name: Deploy Node.js project to Azure Function App
 on:
   push:
     branches: ["main"]
-    paths:
-      - 'backend/apps/azure-fn/**'
 
 env:
   AZURE_FUNCTIONAPP_NAME: 'elderassist'   # set this to your function app name on Azure
