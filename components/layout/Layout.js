@@ -42,6 +42,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
             }
         })
     }, [])
+    
     return (
         <>
             <DataBg />

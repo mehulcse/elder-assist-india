@@ -1118,7 +1118,7 @@ ul.header-top-1-contact-info li a:hover {
     margin: 40px 0;
 }
 .mobile-menu-visible {
-	overflow: hidden;
+    overflow: hidden;
 }
 .mobile-menu-visible .mobile-menu {
 	opacity: 1;
@@ -5837,6 +5837,9 @@ section.faq-2-section .auto-container.p_relative {
 	.column:nth-child(2) .service-5-block {
 		margin-top: 0;
 	}
+    .mobile-menu-visible {
+        overflow: visible;
+    }
 }
 @media only screen and (max-width: 767px){	
     .main-header.header-style-two .nav-outer {
@@ -5908,9 +5911,12 @@ img.company-logo{
 .sticky-header img.company-logo{
     height: 100px;
 }
-
-
-
+.privacy-headers{
+    margin: 25px 0 5px;
+}
+.privacy-container{
+    margin-bottom: 150px;
+}
 
 
 

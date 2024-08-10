@@ -92,10 +92,10 @@ export default function Footer1() {
                   </div>
                   <ul className="link-widget-1-list">
                     <li>
-                      <Link href="#">Privacy Policy</Link>
+                      <Link href="/privacy-policy">Privacy Policy</Link>
                     </li>
                     <li>
-                      <Link href="#">Terms & Condition</Link>
+                      <Link href="/terms-and-conditions">Terms & Condition</Link>
                     </li>
                     <li>
                       <Link href="/cookies-policy">Cookies Policy</Link>
